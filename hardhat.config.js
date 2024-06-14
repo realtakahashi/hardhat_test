@@ -26,6 +26,11 @@ module.exports = {
       chainId:31337,
       accounts: [privateKey],
     },
+    sepolia: {
+      url:"https://sepolia.infura.io/v3/a467ec4718ba4d7eb29179af9e6d698d",
+      chainId:11155111,
+      accounts: [privateKey],
+    },
 // !!!!追加!!!!
     shibuya: {
       url:"https://rpc.shibuya.astar.network:8545",
